@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tra Từ Vựng</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Tra Từ Vựng</h1>
+    <div class="search-container">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Nhập từ vựng cần tra..."
+      />
+      <button onclick="searchWord()">Tìm kiếm</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
